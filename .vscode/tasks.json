@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "tasks.bat",
+			"windows": {
+				"command": "${workspaceFolder}/tasks.bat"
+			},
+			"cwd": "${workspaceFolder}",
+			"group": "build"
+		}
+	]
+}
